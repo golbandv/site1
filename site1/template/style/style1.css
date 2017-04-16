@@ -1,0 +1,49 @@
+.logo {
+  width: 100%;
+  height: 75%;
+  margin: auto;
+  background: url("../images/background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+
+a:visited {
+  color: white; }
+
+.logotip {
+  width: 100%;
+  height: 25%;
+  display: flex; }
+
+.logotip a {
+  height: 80%;
+  width: auto;
+  margin: auto;
+  margin-left: 1%; }
+
+.logotip img {
+  height: 100%;
+  width: auto;
+  margin: auto; }
+
+.soc {
+  height: 20%;
+  width: 20%;
+  background: magenta;
+  margin: auto;
+  margin-right: 0; }
+
+a.social {
+  width: 20%;
+  height: 100%;
+  background-size: contain;
+  display: inline-flex;
+  background-repeat: no-repeat; }
+
+a.vk {
+  background: url("../images/vk.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center; }
+
+/*# sourceMappingURL=style1.css.map */
