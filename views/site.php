@@ -27,3 +27,21 @@
     </section>
     <section class="sec"><div class="overlay"><div class="modal"></div></div>
     </section>
+    <button onclick="loadphones()">нажать</button>
+ <script>
+     function loadphones() {
+         var chislo=5;
+         var xhr = new XMLHttpRequest();
+         xhr.open('POST','/views/1.php', false);
+             xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+         xhr.send(chislo);
+         if (xhr.status !=200){
+             alert('ошибка'+xhr.status);
+         }
+         else {
+             var otvet=xhr.responseText;
+         }
+
+         alert (otvet);
+     }
+ </script>
